@@ -717,12 +717,13 @@ footer{
   				}
   				.spec-descr{
   					margin: 0;
-  					font-size: 0.9em;
+  					font-size: 0.8em;
   				}
   				p{
-  					font-size: 0.9em;
+  					font-size: 0.8em;
   					margin-bottom: 5px;
   					line-height: 1;
+  					text-align: justify;
   				}
   				.goods{
   					display: none;
@@ -741,6 +742,9 @@ footer{
   						display: flex;
   						flex-direction: row;
   						flex-wrap: wrap;
+  						ul li input[type="radio"] + label{
+  							font-size: 0.5em;
+  						}
   						.col-md-3{
   							flex: 0 0 50%;
   						}
@@ -748,7 +752,7 @@ footer{
   							flex: 0 0 50%;
   						}
   						.col-md-4:last-child{
-  							flex: 1;
+  							flex: 100%;
   							button{
   								width: 100%;
   								padding: 0.2em 0;
@@ -765,7 +769,7 @@ footer{
   			}
 			.btn-close{
 				top: 0;
-				transform: translateY(100%);
+				transform: translateY(-10px);
 			}
   		}
 
@@ -815,7 +819,7 @@ footer{
   			overflow: hidden;
 			.btn-close{
 				top: 0;
-				transform: translateY(100%);
+				transform: translateY(-10px);
 			}
   		} 
   		section.feed h3{
@@ -1018,9 +1022,7 @@ footer{
   					    font-size: 1.1em;
 					    margin-bottom: 15px;
 					    line-height: 1.2;
-					    &:last-child{
-					    	display: none;
-					    }
+					
   				}
   				.goods{
   					display: block;
