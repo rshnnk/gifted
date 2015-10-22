@@ -730,7 +730,7 @@ footer{
   				.flex{
   					 box-shadow: 0 8px 10px #ddd;
   					 & >.col-md-4  img, & > .col-md-5 img{
-						max-width: 40%;
+						max-width: 25%;
 						display: block;
 						margin: 0 auto;
   					 }
@@ -903,6 +903,60 @@ footer{
   		section.product .productcard-modal .modal .container{
   			width: 100%;
   			padding: 0;
+  				h3{
+  					font-size: 3em;
+  				}
+  				.specif{
+  					font-size: 1.3em;
+  					padding-top: 0;
+  				}
+  				.spec-descr{
+  					margin: 0;
+  					font-size: 0.9em;
+  				}
+  				p{
+  					font-size: 0.9em;
+  					margin-bottom: 5px;
+  					line-height: 1;
+  				}
+  				.goods{
+  					display: none;
+  				}
+  				.flex{
+  					 box-shadow: 0 8px 10px #ddd;
+  					 & >.col-md-4  img, & > .col-md-5 img{
+						max-width: 40%;
+						display: block;
+						margin: 0 auto;
+  					 }
+  					 
+  				}
+  				.total{
+  					.row{
+  						display: flex;
+  						flex-direction: row;
+  						flex-wrap: wrap;
+  						.col-md-3{
+  							flex: 0 0 50%;
+  						}
+  						.col-md-4:nth-child(1){
+  							flex: 0 0 50%;
+  						}
+  						.col-md-4:last-child{
+  							flex: 1;
+  							button{
+  								width: 100%;
+  								padding: 0.2em 0;
+  							}
+  						}
+  						.select{
+  							font-size: 1em;
+  						}
+  						p.summ{
+  							font-size: 1em;
+  						}
+  					}
+  				}
   		} 
 	footer{
 		.socials{
@@ -949,6 +1003,61 @@ footer{
 	section.product .productcard-modal .modal .container{
 		height: auto;
 		width: 1140px;
+		h3{
+  					font-size: 3em;
+  				}
+  				.specif{
+  					font-size: 2.5em;
+  					padding-top: 0;
+  				}
+  				.spec-descr{
+  				    font-size: 1em;
+   					 margin: 0 0 25px 0;
+  				}
+  				p{
+  					    font-size: 1.1em;
+					    margin-bottom: 15px;
+					    line-height: 1.2;
+					    &:last-child{
+					    	display: none;
+					    }
+  				}
+  				.goods{
+  					display: block;
+  				}
+  				.flex{
+  				
+  					 & >.col-md-4  img, & > .col-md-5 img{
+						max-width: 40%;
+						display: block;
+						margin: 0 auto;
+  					 }
+  					 
+  				}
+  				.total{
+  					.row{
+  						display: block;
+  						.col-md-3{
+  							flex: 0 0 33.333%;
+  						}
+  						.col-md-4:nth-child(1){
+  							flex: 0 0 50%;
+  						}
+  						.col-md-4:last-child{
+  							flex: 1;
+  							button{
+  								width: 100%;
+  								padding: 10px 20px;
+  							}
+  						}
+  						.select{
+  							font-size: 1em;
+  						}
+  						p.summ{
+  							font-size: 1em;
+  						}
+  					}
+  				}
 		.btn-close{
 			top: -20px;
 			transform: translateY(0);
