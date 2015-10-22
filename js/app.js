@@ -41,6 +41,8 @@ $(document).ready(function(){
     });
 
 
+
+
   $('#athlete-3 button').click(function(){
     $(this).parent().parent().modal('hide');
   });
@@ -58,5 +60,14 @@ $(document).ready(function(){
     $('.btn-close').animate({
       scrollTop: $('.productcard-modal').offset().top -120
     }, 'slow');
-});
+  });
+
+  $('.__modals button').click(function(){
+    if($('.product .modal').hasClass('in')){
+      if($("input[name='dif']").is(':checked') === false) {
+        $("input[name='dif']").prop('checked', true);
+    }
+    }
+  });
+
 });
