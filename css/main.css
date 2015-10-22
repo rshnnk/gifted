@@ -826,6 +826,7 @@ footer .socials p {
   }
   section.product .productcard-modal .modal .container .total .row .select {
     font-size: 1em;
+    margin-right: 10px;
   }
   section.product .productcard-modal .modal .container .total .row p.summ {
     font-size: 1em;
