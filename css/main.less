@@ -408,6 +408,9 @@ section.athlets{
 	margin: 0;
 	width: 100%;
 	float: left;
+	.__modals-buttons .flex{
+		justify-content: center;
+	}
 	.modal{
 		position: fixed;
 		overflow: hidden;
@@ -1117,6 +1120,12 @@ footer{
 
 
 @media (min-width: 320px){
+	section.intro{
+		background-size: auto 65%;
+	}
+	section.intro .__bottom h1{
+		font-size: 1.5em;
+	}
 	section.product .productcard-modal .modal .container h3{
 		font-size: 0.8em;
 	}
@@ -1192,4 +1201,430 @@ footer{
 	section.product .flex{
 		justify-content: center;
 	}
+	section.athlets .modal{
+		position: absolute;
+		overflow: visible;
+	}
+	section.athlets .modal .pr-10{
+		    background: #000;
+		    padding: 0 35px;
+		    text-align: justify;
+	}
+	section.feed h3{
+		font-size: 2em;
+	}
+}
+
+ @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	body{
+  		overflow-x: hidden;
+  		section.intro{
+  			background-size: auto 70%;
+  			.__bottom h1{
+  				font-size: 1.5em;
+  			}
+  			.__bottom .scroll{
+  				left: 43%;
+  			}
+  		}
+  		}
+  	}
+
+  	 @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+		body{
+  		overflow-x: hidden;
+  		section.intro{
+  			background-size: auto 90%;
+  			.__bottom h1{
+  				font-size: 3em;
+  			}
+  			.__bottom .scroll{
+  				left: 47%;
+  				bottom: 50%;
+  			}
+  		}
+}
+}
+@media (min-width: 768px){
+	section.product .productcard-modal .modal .container h3{
+		font-size: 2em;
+	}
+	section.product .productcard-modal .modal .container p {
+  color: #000;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    letter-spacing: -1px;
+	}
+	.hidden-sm{
+		display: block !important;
+	}
+	section.product .productcard-modal .modal .container .select {
+  font-size: 1.3em;
+    font-weight: 900;
+	}
+	section.product .productcard-modal .modal .container .total ul li input[type="radio"] + label {
+    font-size: 1em;
+	}
+	section.product .productcard-modal .modal .container .specif {
+       font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    line-height: 1;
+    padding-top: 15px;
+    margin-bottom: 5px;
+	}
+	section.product .productcard-modal .modal .container .spec-descr {
+   font-size: 0.9em;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+	}
+	section.product .productcard-modal .modal .container ul{
+		padding-bottom: 0;
+	}
+	section.product .productcard-modal .modal .container .img-responsive{
+		max-width: 100%;
+	}
+	section.product .productcard-modal .modal .container .total p.summ {
+    font-size: 1.5em;
+    font-weight: 700;
+    font-style: italic;
+    color: #cf0a2c;
+	}
+	section.product .productcard-modal .modal .container .total button {
+    font-weight: 900;
+    font-size: 1em;
+	}
+	section.product .modal button {
+		padding: 10px 30px;
+	}
+	section.product .modal .btn-close{
+		top: 0;
+		&:after{
+			top: -15 px;
+		}
+	}	
+	section.product .productcard-modal .modal .container .total p.summ-wear{
+		font-size: 2em;
+	}
+	.modal.in{
+		display: block !important;
+		position: absolute;
+	}
+	.modal-open{
+		overflow: visible;
+	}
+	section.product .flex{
+		justify-content: space-between;
+		align-items: center;
+		.col-md-3{
+			flex: 0 0 50%;
+		}
+	}
+	.section .__modals .flex{
+		justify-content: space-between;
+	}
+	.flex-1{
+			flex:0 0 100%;
+		}
+}
+
+@media (min-width: 992px){
+	section.product .productcard-modal .modal .container h3{
+		font-size: 2em;
+	}
+	section.product .productcard-modal .modal .container p {
+  color: #000;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    letter-spacing: -1px;
+	}
+	.hidden-sm{
+		display: block !important;
+	}
+	section.product .productcard-modal .modal .container .select {
+  font-size: 1.3em;
+    font-weight: 900;
+	}
+	section.product .productcard-modal .modal .container .total ul li input[type="radio"] + label {
+    font-size: 1em;
+	}
+	section.product .productcard-modal .modal .container .specif {
+       font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    line-height: 1;
+    padding-top: 15px;
+    margin-bottom: 5px;
+	}
+	section.product .productcard-modal .modal .container .spec-descr {
+   font-size: 0.9em;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+	}
+	section.product .productcard-modal .modal .container ul{
+		padding-bottom: 0;
+	}
+	section.product .productcard-modal .modal .container .img-responsive{
+		max-width: 100%;
+	}
+	section.product .productcard-modal .modal .container .total p.summ {
+    font-size: 1.5em;
+    font-weight: 700;
+    font-style: italic;
+    color: #cf0a2c;
+	}
+	section.product .productcard-modal .modal .container .total button {
+    font-weight: 900;
+    font-size: 1em;
+	}
+	section.product .modal button {
+		padding: 10px 30px;
+	}
+	section.product .modal .btn-close{
+		top: 0;
+		&:after{
+			top: -15 px;
+		}
+	}	
+	section.product .productcard-modal .modal .container .total p.summ-wear{
+		font-size: 2em;
+	}
+	.modal.in{
+		display: block !important;
+		position: absolute;
+	}
+	.modal-open{
+		overflow: visible;
+	}
+	section.product .flex{
+		justify-content: space-between;
+		align-items: center;
+		.col-md-3{
+			flex: 0 0 50%;
+		}
+	}
+	.section .__modals .flex{
+		justify-content: space-between;
+	}
+	.flex-1{
+			flex:0 0 100%;
+		}
+}
+
+@media (min-width: 1200px){
+	section.product .productcard-modal .modal .container h3{
+		font-size: 2em;
+	}
+	section.product .productcard-modal .modal .container p {
+  color: #000;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    letter-spacing: -1px;
+	}
+	.hidden-sm{
+		display: block !important;
+	}
+	section.product .productcard-modal .modal .container .select {
+  font-size: 1.3em;
+    font-weight: 900;
+	}
+	section.product .productcard-modal .modal .container .total ul li input[type="radio"] + label {
+    font-size: 1em;
+	}
+	section.product .productcard-modal .modal .container .specif {
+       font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    line-height: 1;
+    padding-top: 15px;
+    margin-bottom: 5px;
+	}
+	section.product .productcard-modal .modal .container .spec-descr {
+   font-size: 0.9em;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+	}
+	section.product .productcard-modal .modal .container ul{
+		padding-bottom: 0;
+	}
+	section.product .productcard-modal .modal .container .img-responsive{
+		max-width: 100%;
+	}
+	section.product .productcard-modal .modal .container .total p.summ {
+    font-size: 1.5em;
+    font-weight: 700;
+    font-style: italic;
+    color: #cf0a2c;
+	}
+	section.product .productcard-modal .modal .container .total button {
+    font-weight: 900;
+    font-size: 1em;
+	}
+	section.product .modal button {
+		padding: 10px 30px;
+	}
+	section.product .modal .btn-close{
+		top: 0;
+		&:after{
+			top: -15 px;
+		}
+	}	
+	section.product .productcard-modal .modal .container .total p.summ-wear{
+		font-size: 2em;
+	}
+	.modal.in{
+		display: block !important;
+		position: fixed;
+	}
+	.modal-open{
+		overflow: visible;
+	}
+	section.product .flex{
+		justify-content: space-between;
+		align-items: flex-end;
+		.col-md-3{
+			flex: 0 0 25%;
+		}
+	}
+	.section .__modals .flex{
+		justify-content: space-between;
+	}
+	.flex-1{
+			flex:0 0 100%;
+		}
+		img.img-responsive.center-block {
+			    max-width: 70%;
+			}
+		#wear{
+				img.img-responsive.center-block {
+			    max-width: 50%;
+			}
+		}
+		.athlets .__athlets-modal{
+		.img-responsive{
+			min-width: 113%;
+		}
+	}
+	section.feed h3{
+		font-size: 3em;
+	}
+
+
+}
+
+@media (min-width: 1400px){
+		section.intro .__bottom .scroll{
+		left: 49%;
+	}
+	section.product .productcard-modal .modal .container h3{
+		font-size: 2em;
+	}
+	section.product .productcard-modal .modal .container p {
+  color: #000;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    letter-spacing: -1px;
+	}
+	.hidden-sm{
+		display: block !important;
+	}
+	section.product .productcard-modal .modal .container .select {
+  font-size: 1.3em;
+    font-weight: 900;
+	}
+	section.product .productcard-modal .modal .container .total ul li input[type="radio"] + label {
+    font-size: 1em;
+	}
+	section.product .productcard-modal .modal .container .specif {
+       font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    line-height: 1;
+    padding-top: 15px;
+    margin-bottom: 5px;
+	}
+	section.product .productcard-modal .modal .container .spec-descr {
+   font-size: 0.9em;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+	}
+	section.product .productcard-modal .modal .container ul{
+		padding-bottom: 0;
+	}
+	section.product .productcard-modal .modal .container .img-responsive{
+		max-width: 100%;
+	}
+	section.product .productcard-modal .modal .container .total p.summ {
+    font-size: 1.5em;
+    font-weight: 700;
+    font-style: italic;
+    color: #cf0a2c;
+	}
+	section.product .productcard-modal .modal .container .total button {
+    font-weight: 900;
+    font-size: 1em;
+	}
+	section.product .modal button {
+		padding: 10px 30px;
+	}
+	section.product .modal .btn-close{
+		top: 0;
+		&:after{
+			top: -15 px;
+		}
+	}	
+	section.product .productcard-modal .modal .container .total p.summ-wear{
+		font-size: 2em;
+	}
+	.modal.in{
+		display: block !important;
+		position: fixed;
+	}
+	.modal-open{
+		overflow: visible;
+	}
+	section.product .flex{
+		justify-content: space-between;
+		align-items: flex-end;
+		.col-md-3{
+			flex: 0 0 25%;
+		}
+	}
+	.section .__modals .flex{
+		justify-content: space-between;
+	}
+	.flex-1{
+			flex:0 0 100%;
+		}
+		img.img-responsive.center-block {
+			    max-width: 100%;
+			}
+		#wear{
+				img.img-responsive.center-block {
+			    max-width: 100%;
+			}
+		}
+	.athlets .__athlets-modal{
+		.img-responsive{
+			min-width: 113%;
+		}
+	}	
 }

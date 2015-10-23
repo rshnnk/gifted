@@ -62,6 +62,15 @@ $(document).ready(function(){
     }, 'slow');
   });
 
+  $('.__modals-buttons button').click(function (e) {
+    $('html, body').animate({
+        scrollTop: $('.athlets .modal').offset().top
+    }, 'slow');
+    $('.btn-close').animate({
+      scrollTop: $('.athlets .modal').offset().top
+    }, 'slow');
+  });
+
   $('.__modals button').click(function(){
     if($('.product .modal').hasClass('in')){
       if($("input[name='dif']").is(':checked') === false) {
